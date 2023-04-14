@@ -1,0 +1,40 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.container{
+    width: 700px;
+    height: 350px;
+    background-image: url("https://thumbs.dreamstime.com/b/cards-green-felt-casino-table-background-two-aces-copy-space-center-78397207.jpg");
+  padding-top: 70px;
+  margin: 50px auto;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: 6px;
+    transition: 0.2s linear;
+}
+
+button:active {
+  transform: scale(0.9)
+}
